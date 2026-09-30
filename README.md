@@ -25,15 +25,4 @@ The system is designed with separation of concerns, maintainability, testability
 * Automated testing
 * Containerized development environment
 
-## Architecture
 
-The solution follows **Clean Architecture** principles with a strong separation between domain logic, application use cases, infrastructure, and presentation.
-
-```text
-┌───────────────────────────────────────────────┐
-│                  Presentation                 │
-│        ASP.NET Core API / Web Client          │
-└──────────────────────┬────────────────────────┘
-                       │
-┌──────────────────
-```
